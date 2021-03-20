@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 herokudeployment.wsgi:application
+web: waitress-serve --port=$PORT herokudeployment.wsgi:application
